@@ -9,8 +9,8 @@ headers = {
 with open("image_urls.json", "r") as f:
     data = json.load(f)
 
-chapter_start = 3
-chapter_end = 120
+chapter_start = 1
+chapter_end = 1103
 for chapter in range(chapter_start, chapter_end + 1):
     print(f"Chapter {chapter}")
 

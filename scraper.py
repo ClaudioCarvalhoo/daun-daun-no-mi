@@ -12,7 +12,7 @@ options = Options()
 options.add_argument('--headless')
 driver = webdriver.Firefox(options=options)
 
-chapter_start = 42
+chapter_start = 1
 chapter_end = 1103
 
 for chapter in range(chapter_start, chapter_end + 1):
